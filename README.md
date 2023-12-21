@@ -44,11 +44,66 @@ How to Start/Access:
     Login:
         Simulate user logins with provided functions.
 
-Class Diagram:
-
 Associations:
 
     User-Doctor: Inheritance.
     HealthData-User: Composition.
     MedicineReminder-User: Composition.
     Dao Classes: Used for database operations.
+
+Database:
+
+    Database Type:
+        Supports relational databases (e.g., MySQL, PostgreSQL).
+
+    Configuration:
+        Configure database connection in DatabaseConnection.java.
+
+    Schema:
+        Refer to database schema creation scripts.
+
+
+Compiler Time Dependencies:
+
+    MindRot BCrypt Library:
+        Required for password hashing.
+        Include in lib/ or manage via a build tool.
+
+System Requirements:
+
+    Java Runtime Environment (JRE):
+        Ensure Java 8 or later is installed.
+
+    Database:
+        Set up a relational database (e.g., MySQL, PostgreSQL).
+
+ Database Configuration:
+
+    Database Connection:
+        Open DatabaseConnection.java.
+
+    Edit Configuration:
+        Modify database URL, username, and password.
+
+Features
+
+    Registration:
+        Access the application and register a new user.
+
+    Login:
+        Log in with the registered user credentials.
+
+    Health Data Entry:
+        Add health data for the logged-in user.
+
+    Medicine Reminders:
+        Optionally, set up medicine reminders.
+
+GUI Mode:
+
+    If using GUI, ensure a graphical environment is available.
+
+Developer Functions (Optional):
+
+    Developer functions can be accessed based on requirements.
+
