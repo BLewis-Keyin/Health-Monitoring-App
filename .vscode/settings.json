@@ -1,0 +1,8 @@
+
+{
+"java.project.referencedLibraries": [
+    "Skeleton/lib/jBCrypt-0.4.1.jar",
+    "Skeleton/lib/postgresql-42.6.0.jar"
+],
+"java.debug.settings.onBuildFailureProceed": true
+}
